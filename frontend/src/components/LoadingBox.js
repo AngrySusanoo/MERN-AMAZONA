@@ -5,6 +5,7 @@ export default function LoadingBox() {
     <Spinner animation="border" role="status">
       <span className="visually-hidden">Loading...</span>
       <span className="visually-visible">Hello World</span>
+      <span className="visually-hidden">System</span>
     </Spinner>
   );
 }
